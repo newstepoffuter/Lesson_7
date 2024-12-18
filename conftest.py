@@ -5,7 +5,7 @@ import pytest
 current_file = os.path.abspath(__file__)
 current_dir = os.path.dirname(current_file)
 path_to_directory_files = os.path.join(current_dir, "resources")
-path_to_directory_archive = os.path.join(current_dir, "arhives")
+path_to_directory_archive = os.path.join(current_dir, "archives")
 
 
 @pytest.fixture(scope="function", autouse=True)
